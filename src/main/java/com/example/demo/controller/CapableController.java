@@ -1,7 +1,7 @@
 /*
  * @Author: nightmare-mio wanglongwei2009@qq.com
  * @Date: 2023-08-26 21:24:32
- * @LastEditTime: 2023-08-30 20:52:41
+ * @LastEditTime: 2023-08-31 00:13:57
  * @Description: 
  */
 package com.example.demo.controller;
@@ -50,11 +50,29 @@ public class CapableController {
         };
     }
 
+
     /* 
-     * 
+     * 特选干员定向-2% 6星 8% 5星 50% 4星 40% 3星
      */
-    @RequestMapping(path = "/{times}", method = RequestMethod.GET)
-    public List<Capable> getCapable(
+    @RequestMapping(path = "/cw/{times}", method = RequestMethod.GET)
+    public List<Capable> cw(
+            @NotNull @Positive(message = "大于0") @Max(value = 10, message = "小于10") @PathVariable Integer times) {
+        List<Capable> result = new LinkedList<>();
+        while (times-- >= 0) {
+            Capable capable = service.upPool();
+            result.add(capable);
+        }
+        return result;
+    }
+
+
+
+
+    /* 
+     * 全干员-1.5% 6星 30% 5星 68.5% 剩余
+     */
+    @RequestMapping(path = "/cq/{times}", method = RequestMethod.GET)
+    public List<Capable> cq(
             @NotNull @Positive(message = "大于0") @Max(value = 10, message = "小于10") @PathVariable Integer times) {
         Map<Map<Capable, Integer>, Integer> pool = new HashMap<>();
         pool.put(service.getPool5(), 15);

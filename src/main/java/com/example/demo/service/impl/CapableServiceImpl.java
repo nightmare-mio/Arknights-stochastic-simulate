@@ -1,7 +1,7 @@
 /*
  * @Author: nightmare-mio wanglongwei2009@qq.com
  * @Date: 2023-08-26 21:24:32
- * @LastEditTime: 2023-08-30 23:05:21
+ * @LastEditTime: 2023-08-31 00:11:48
  * @Description: 
  */
 package com.example.demo.service.impl;
@@ -48,8 +48,16 @@ public class CapableServiceImpl extends ServiceImpl<CapableMapper, Capable> impl
     private Map<Capable, Integer> up5 = new HashMap<Capable, Integer>();
     private Map<Capable, Integer> up4 = new HashMap<Capable, Integer>();
     private List<Capable> list = new LinkedList<>();
+    /* 抽卡计数 需要重数据源获取 */
+    private Integer count = 0;
 
     private final CapableMapper capableMapper;
+
+    Map<Capable, Integer> p5 = new HashMap<>();
+    Map<Capable, Integer> p4 = new HashMap<>();
+    Map<Capable, Integer> p3 = new HashMap<>();
+    Map<Capable, Integer> p2 = new HashMap<>();
+    Map<Map<Capable, Integer>, Integer> pools = new HashMap<>();
 
     public CapableServiceImpl(CapableMapper capableMapper) {
         this.capableMapper = capableMapper;
@@ -67,40 +75,61 @@ public class CapableServiceImpl extends ServiceImpl<CapableMapper, Capable> impl
                     break;
             }
         });
+        initPools();
     }
-    /* 
-     * 基于2023年8月30日 特选干员定向
-     * 
-     */
-    public Capable upPool() {
-        Map<Map<Capable, Integer>, Integer> pools = new HashMap<>();
 
-        Map<Capable, Integer> p5 = new HashMap<>();
-        Map<Capable, Integer> p4 = new HashMap<>();
-        Map<Capable, Integer> p3 = new HashMap<>();
-        Map<Capable, Integer> p2 = new HashMap<>();
+    public void initPools() {
 
         String np5 = "老鲤|鸿雪|玛恩纳|斥罪";
         String np4 = "赤冬|极光|和弦|洋灰|玫拉    |絮雨";
         String np3 = "夜烟|远山|杰西卡|流星|白雪|清道夫|红豆 |杜宾|缠丸|霜叶|慕斯|砾|暗索|末药|调香师 |角峰|蛇屠箱|古米|深海色|地灵|阿消|猎蜂|格雷伊 |苏苏洛|桃金娘|红云|梅|安比尔|宴|刻刀|波登可|卡达|孑|酸糖|芳汀|泡泡|杰克|松果|豆苗|深靛 |罗比菈塔|褐果|铅踝|休谟斯";
         String np2 = "芬|香草|翎羽|玫兰莎|卡缇|米格鲁|克洛丝|炎熔|芙蓉|安赛尔|史都华德|梓兰|空爆|月见夜|斑点|泡普卡";
 
-        Set<String> sp5 = new HashSet<>(Arrays.asList(np5.trim()));
-        Set<String> sp4 = new HashSet<>(Arrays.asList(np4.trim()));
-        Set<String> sp3 = new HashSet<>(Arrays.asList(np3.trim()));
-        Set<String> sp2 = new HashSet<>(Arrays.asList(np2.trim()));
+        Set<String> sp5 = new HashSet<>(Arrays.asList(np5.replaceAll("\\s+", " ").split("\\|")));
+        Set<String> sp4 = new HashSet<>(Arrays.asList(np4.replaceAll("\\s+", " ").split("\\|")));
+        Set<String> sp3 = new HashSet<>(Arrays.asList(np3.replaceAll("\\s+", " ").split("\\|")));
+        Set<String> sp2 = new HashSet<>(Arrays.asList(np2.replaceAll("\\s+", " ").split("\\|")));
 
         p5 = createPool(sp5);
         p4 = createPool(sp4);
         p3 = createPool(sp3);
         p2 = createPool(sp2);
-        
+
         pools.put(p5, 20);
         pools.put(p4, 80);
         pools.put(p3, 500);
         pools.put(p2, 400);
+    }
 
-        return getCapable(pools);
+    /*
+     * 基于2023年8月30日 特选干员定向
+     * 每50抽提升2%
+     */
+    public Capable upPool() {
+        if (count >= 50) {
+            pools.put(p5, pools.get(p5) + 20);
+            int maxValue = 0;
+            Map<Capable, Integer> maxKey = null;
+            for (Map.Entry<Map<Capable, Integer>, Integer> e : pools.entrySet()) {
+                if (!e.getKey().equals(p5) && maxValue < e.getValue()) {
+                    maxValue = e.getValue();
+                    maxKey = e.getKey();
+                }
+            }
+            pools.put(maxKey, maxValue - 20);
+            count = 0 + 1;
+        }
+        return clearCount(getCapable(pools));
+    }
+
+    /*
+     * 重置计数
+     */
+    public Capable clearCount(Capable capable) {
+        if (capable.getRarity().equals("5")) {
+            count = 0;
+        }
+        return capable;
     }
 
     /*
@@ -119,8 +148,8 @@ public class CapableServiceImpl extends ServiceImpl<CapableMapper, Capable> impl
     public Capable getCapable(Map<Map<Capable, Integer>, Integer> pool) {
         return getRandomValueM(pool);
     }
-    
-    /* 
+
+    /*
      * 随机套随机
      */
     public static <T> T getRandomValueM(Map<Map<T, Integer>, Integer> awardMap) {
