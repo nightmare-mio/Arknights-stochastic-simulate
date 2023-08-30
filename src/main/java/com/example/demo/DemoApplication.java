@@ -1,7 +1,7 @@
 /*
  * @Author: nightmare-mio wanglongwei2009@qq.com
  * @Date: 2023-08-26 20:36:07
- * @LastEditTime: 2023-08-29 20:51:18
+ * @LastEditTime: 2023-08-30 20:51:01
  * @Description: 
  */
 /*
@@ -12,17 +12,15 @@
  */
 package com.example.demo;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import com.example.demo.service.impl.CapableServiceImpl;
 
 @SpringBootApplication
+@EnableWebMvc
 public class DemoApplication {
 
 	@Autowired

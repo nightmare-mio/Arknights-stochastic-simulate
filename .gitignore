@@ -35,3 +35,4 @@ mvnw
 mvnw.cmd
 .mvn/
 src/main/resources/application-dev.yml
+src/main/java/com/example/demo/FastAutoGeneratorTest.java
