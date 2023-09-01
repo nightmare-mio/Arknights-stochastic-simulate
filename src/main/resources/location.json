@@ -1,0 +1,1759 @@
+[ {
+  "id" : "R303",
+  "name" : "12F",
+  "rarity" : "1",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "RCX3",
+  "name" : "Castle-3",
+  "rarity" : "0",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "RCX5",
+  "name" : "Friston-3",
+  "rarity" : "0",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "RCX2",
+  "name" : "Lancet-2",
+  "rarity" : "0",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "RCX4",
+  "name" : "THRM-EX",
+  "rarity" : "0",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "U007",
+  "name" : "U-Official",
+  "rarity" : "0",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "B214",
+  "name" : "W",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "FO02",
+  "name" : "临光",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "YD11",
+  "name" : "乌有",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "YD09",
+  "name" : "九色鹿",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "R133",
+  "name" : "亚叶",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "YD20",
+  "name" : "仇白",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "NM03",
+  "name" : "令",
+  "rarity" : "5",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "B215",
+  "name" : "伊内丝",
+  "rarity" : "5",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "R130",
+  "name" : "伊桑",
+  "rarity" : "3",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "RL03",
+  "name" : "伊芙利特",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "R171",
+  "name" : "休谟斯",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "SR36",
+  "name" : "伺夜",
+  "rarity" : "5",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "KZ10",
+  "name" : "但书",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "R112",
+  "name" : "假日威龙陈",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "R109",
+  "name" : "傀影",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "PA12",
+  "name" : "克洛丝",
+  "rarity" : "2",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "USS1",
+  "name" : "凛冬",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "SI06",
+  "name" : "凛视",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "B003",
+  "name" : "凯尔希",
+  "rarity" : "5",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "JC05",
+  "name" : "初雪",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "R155",
+  "name" : "刻俄柏",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "R144",
+  "name" : "刻刀",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "R106",
+  "name" : "华法琳",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "CB06",
+  "name" : "卡夫卡",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "LN04",
+  "name" : "卡涅利安",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "PA45",
+  "name" : "卡缇",
+  "rarity" : "2",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "R140",
+  "name" : "卡达",
+  "rarity" : "3",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "USS3",
+  "name" : "古米",
+  "rarity" : "3",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "PL04",
+  "name" : "可颂",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "R111",
+  "name" : "史尔特尔",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "PA42",
+  "name" : "史都华德",
+  "rarity" : "2",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "VC16",
+  "name" : "号角",
+  "rarity" : "5",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "LM19",
+  "name" : "吽",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "DB03",
+  "name" : "和弦",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "IU07",
+  "name" : "嘉维尔",
+  "rarity" : "3",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "RB07",
+  "name" : "四月",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "GG03",
+  "name" : "因陀罗",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "SG08",
+  "name" : "图耶",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "LT40",
+  "name" : "圣约送葬人",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "LN01",
+  "name" : "地灵",
+  "rarity" : "3",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "R124",
+  "name" : "坚雷",
+  "rarity" : "3",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "MN07",
+  "name" : "埃拉托",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "RL02",
+  "name" : "塞雷娅",
+  "rarity" : "5",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "R121",
+  "name" : "夏栎",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "NM02",
+  "name" : "夕",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "RL07",
+  "name" : "多萝西",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "A41",
+  "name" : "夜刀",
+  "rarity" : "1",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "RB12",
+  "name" : "夜半",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "VC02",
+  "name" : "夜烟",
+  "rarity" : "3",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "FO03",
+  "name" : "夜莺",
+  "rarity" : "5",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "VC03",
+  "name" : "夜魔",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "SK01",
+  "name" : "天火",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "SR28",
+  "name" : "奥斯塔",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "SR37",
+  "name" : "子月",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "LM14",
+  "name" : "孑",
+  "rarity" : "3",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "ST01",
+  "name" : "守林人",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "II04",
+  "name" : "安哲拉",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "PA44",
+  "name" : "安德切尔",
+  "rarity" : "2",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "LT02",
+  "name" : "安比尔",
+  "rarity" : "3",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "SR02",
+  "name" : "安洁莉娜",
+  "rarity" : "5",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "PA43",
+  "name" : "安赛尔",
+  "rarity" : "2",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "HK03",
+  "name" : "宴",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "SI02",
+  "name" : "寒檀",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "RF02",
+  "name" : "寒芒克洛丝",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "CB05",
+  "name" : "山",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "JC06",
+  "name" : "崖心",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "HK13",
+  "name" : "嵯峨",
+  "rarity" : "5",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "A42",
+  "name" : "巡林者",
+  "rarity" : "1",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "R148",
+  "name" : "巫恋",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "CB03",
+  "name" : "布丁",
+  "rarity" : "3",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "SR27",
+  "name" : "布洛卡",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "MN04",
+  "name" : "帕拉斯",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "NM01",
+  "name" : "年",
+  "rarity" : "5",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "AA02",
+  "name" : "幽灵鲨",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "SG07",
+  "name" : "异客",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "CR02",
+  "name" : "归溟幽灵鲨",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "R132",
+  "name" : "微风",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "PL02",
+  "name" : "德克萨斯",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "YD05",
+  "name" : "惊蛰",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "R158",
+  "name" : "慑砂",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "VC04",
+  "name" : "慕斯",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "RS04",
+  "name" : "战车",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "YD15",
+  "name" : "截云",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "RF23",
+  "name" : "承曦格雷伊",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "SR01",
+  "name" : "拉普兰德",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "LM15",
+  "name" : "拜松",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "CB19",
+  "name" : "掠风",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "GG01",
+  "name" : "推进之王",
+  "rarity" : "5",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "SI07",
+  "name" : "提丰",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "GG02",
+  "name" : "摩根",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "PA64",
+  "name" : "斑点",
+  "rarity" : "2",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "SR35",
+  "name" : "斥罪",
+  "rarity" : "5",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "RB04",
+  "name" : "断崖",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "MN01",
+  "name" : "断罪者",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "AA01",
+  "name" : "斯卡蒂",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "USS4",
+  "name" : "早露",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "R175",
+  "name" : "明椒",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "RR01",
+  "name" : "星极",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "RL08",
+  "name" : "星源",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "LM05",
+  "name" : "星熊",
+  "rarity" : "5",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "R143",
+  "name" : "晓歌",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "SR03",
+  "name" : "普罗旺斯",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "RB02",
+  "name" : "暗索",
+  "rarity" : "3",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "VC07",
+  "name" : "暮落",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "RB01",
+  "name" : "暴行",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "R164",
+  "name" : "暴雨",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "R129",
+  "name" : "月禾",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "PA62",
+  "name" : "月见夜",
+  "rarity" : "2",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "R104",
+  "name" : "末药",
+  "rarity" : "3",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "R100",
+  "name" : "杜宾",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "A44",
+  "name" : "杜林",
+  "rarity" : "1",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "R166",
+  "name" : "杰克",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "BS03",
+  "name" : "杰西卡",
+  "rarity" : "3",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "CB09",
+  "name" : "松果",
+  "rarity" : "3",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "JC09",
+  "name" : "极光",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "R131",
+  "name" : "极境",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "LM21",
+  "name" : "林",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "R138",
+  "name" : "柏喙",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "R128",
+  "name" : "格劳克斯",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "VC05",
+  "name" : "格拉尼",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "R119",
+  "name" : "格雷伊",
+  "rarity" : "3",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "R108",
+  "name" : "桃金娘",
+  "rarity" : "3",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "YD03",
+  "name" : "桑葚",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "VC01",
+  "name" : "梅",
+  "rarity" : "3",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "RL05",
+  "name" : "梅尔",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "PA61",
+  "name" : "梓兰",
+  "rarity" : "2",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "II01",
+  "name" : "棘刺",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "SG03",
+  "name" : "森蚺",
+  "rarity" : "5",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "LM12",
+  "name" : "槐琥",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "AA05",
+  "name" : "歌蕾蒂娅",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "KZ15",
+  "name" : "正义骑士号",
+  "rarity" : "0",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "HK07",
+  "name" : "水月",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "PA65",
+  "name" : "泡普卡",
+  "rarity" : "2",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "R146",
+  "name" : "泡泡",
+  "rarity" : "3",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "R157",
+  "name" : "波登可",
+  "rarity" : "3",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "R159",
+  "name" : "泥岩",
+  "rarity" : "5",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "MH01",
+  "name" : "泰拉大陆调查团",
+  "rarity" : "0",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "RB11",
+  "name" : "洋灰",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "VC18",
+  "name" : "洛洛",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "II09",
+  "name" : "流明",
+  "rarity" : "5",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "ST02",
+  "name" : "流星",
+  "rarity" : "3",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "CR01",
+  "name" : "浊心斯卡蒂",
+  "rarity" : "5",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "II10",
+  "name" : "海沫",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "VC19",
+  "name" : "海蒂",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "RL10",
+  "name" : "淬羽赫默",
+  "rarity" : "5",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "AA04",
+  "name" : "深海色",
+  "rarity" : "3",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "II05",
+  "name" : "深靛",
+  "rarity" : "3",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "R160",
+  "name" : "清流",
+  "rarity" : "3",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "SW02",
+  "name" : "清道夫",
+  "rarity" : "3",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "R117",
+  "name" : "温蒂",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "VC09",
+  "name" : "澄闪",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "RF03",
+  "name" : "濯尘芙蓉",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "RB09",
+  "name" : "火哨",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "MN02",
+  "name" : "火神",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "MH03",
+  "name" : "火龙S黑角",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "R110",
+  "name" : "灰喉",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "KZ12",
+  "name" : "灰毫",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "RS01",
+  "name" : "灰烬",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "JC02",
+  "name" : "灵知",
+  "rarity" : "5",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "R137",
+  "name" : "炎客",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "PA15",
+  "name" : "炎熔",
+  "rarity" : "2",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "RF01",
+  "name" : "炎狱炎熔",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "KZ11",
+  "name" : "焰尾",
+  "rarity" : "5",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "DB02",
+  "name" : "焰影苇草",
+  "rarity" : "5",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "RE41",
+  "name" : "煌",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "VC11",
+  "name" : "熔泉",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "SG06",
+  "name" : "燧石",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "VC12",
+  "name" : "爱丽丝",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "SG05",
+  "name" : "特米米",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "SG01",
+  "name" : "狮蝎",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "US10",
+  "name" : "猎蜂",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "KZ08",
+  "name" : "玛恩纳",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "PA41",
+  "name" : "玫兰莎",
+  "rarity" : "2",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "CB22",
+  "name" : "玫拉",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "LM22",
+  "name" : "琳琅诗怀雅",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "VC10",
+  "name" : "琴柳",
+  "rarity" : "5",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "KZ09",
+  "name" : "瑕光",
+  "rarity" : "5",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "KZ03",
+  "name" : "白金",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "VC17",
+  "name" : "白铁",
+  "rarity" : "5",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "LM10",
+  "name" : "白雪",
+  "rarity" : "3",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "RL04",
+  "name" : "白面鸮",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "RF22",
+  "name" : "百炼嘉维尔",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "USS2",
+  "name" : "真理",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "RB05",
+  "name" : "石棉",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "CB18",
+  "name" : "石英",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "KZ04",
+  "name" : "砾",
+  "rarity" : "3",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "R162",
+  "name" : "稀音",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "PL05",
+  "name" : "空",
+  "rarity" : "4",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "LT08",
+  "name" : "空弦",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "LT12",
+  "name" : "空构",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "PA63",
+  "name" : "空爆",
+  "rarity" : "2",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "PA14",
+  "name" : "米格鲁",
+  "rarity" : "2",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "R163",
+  "name" : "絮雨",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "SW01",
+  "name" : "红",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "R122",
+  "name" : "红云",
+  "rarity" : "3",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "R105",
+  "name" : "红豆",
+  "rarity" : "3",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "LN10",
+  "name" : "纯烬艾雅法拉",
+  "rarity" : "5",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "HK05",
+  "name" : "绮良",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "PL07",
+  "name" : "缄默德克萨斯",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "HK01",
+  "name" : "缠丸",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "RL09",
+  "name" : "缪尔赛思",
+  "rarity" : "5",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "CB08",
+  "name" : "罗宾",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "R161",
+  "name" : "罗小黑",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "CB11",
+  "name" : "罗比菈塔",
+  "rarity" : "3",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "BV13",
+  "name" : "羽毛笔",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "LT05",
+  "name" : "翎羽",
+  "rarity" : "2",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "KZ01",
+  "name" : "耀骑士临光",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "LM18",
+  "name" : "老鲤",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "JC00",
+  "name" : "耶拉",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "PL03",
+  "name" : "能天使",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "SG09",
+  "name" : "至简",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "IU04",
+  "name" : "艾丝黛尔",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "II07",
+  "name" : "艾丽妮",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "LN02",
+  "name" : "艾雅法拉",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "BS01",
+  "name" : "芙兰卡",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "PA13",
+  "name" : "芙蓉",
+  "rarity" : "2",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "PA11",
+  "name" : "芬",
+  "rarity" : "2",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "LT06",
+  "name" : "芳汀",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "HT03",
+  "name" : "苇草",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "SS03",
+  "name" : "苍苔",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "R107",
+  "name" : "苏苏洛",
+  "rarity" : "3",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "US11",
+  "name" : "苦艾",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "LT77",
+  "name" : "莫斯提马",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "RB03",
+  "name" : "莱恩哈特",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "LT11",
+  "name" : "菲亚梅塔",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "AA03",
+  "name" : "蓝毒",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "VC08",
+  "name" : "薄绿",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "CB12",
+  "name" : "蚀清",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "IU05",
+  "name" : "蛇屠箱",
+  "rarity" : "3",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "RB06",
+  "name" : "蜜莓",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "R147",
+  "name" : "蜜蜡",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "R134",
+  "name" : "褐果",
+  "rarity" : "3",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "LT10",
+  "name" : "见行者",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "JC03",
+  "name" : "角峰",
+  "rarity" : "3",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "JC04",
+  "name" : "讯使",
+  "rarity" : "3",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "LM08",
+  "name" : "诗怀雅",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "MN03",
+  "name" : "调香师",
+  "rarity" : "3",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "VC21",
+  "name" : "谜图",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "CB16",
+  "name" : "豆苗",
+  "rarity" : "3",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "VC14",
+  "name" : "贝娜",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "SR26",
+  "name" : "贾维",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "HK04",
+  "name" : "赤冬",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "AZ01",
+  "name" : "赫拉格",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "RL01",
+  "name" : "赫默",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "LN06",
+  "name" : "车尔尼",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "GG04",
+  "name" : "达格达",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "SI01",
+  "name" : "远山",
+  "rarity" : "3",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "KZ13",
+  "name" : "远牙",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "RE45",
+  "name" : "迷迭香",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "LT01",
+  "name" : "送葬人",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "R139",
+  "name" : "酸糖",
+  "rarity" : "3",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "NM04",
+  "name" : "重岳",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "KZ14",
+  "name" : "野鬃",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "R172",
+  "name" : "铃兰",
+  "rarity" : "5",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "SG11",
+  "name" : "铅踝",
+  "rarity" : "3",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "YD17",
+  "name" : "铎铃",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "JC01",
+  "name" : "银灰",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "R126",
+  "name" : "铸铁",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "SS01",
+  "name" : "锡兰",
+  "rarity" : "4",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "RS02",
+  "name" : "闪击",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "FO01",
+  "name" : "闪灵",
+  "rarity" : "5",
+  "profession" : "医疗",
+  "ico" : null
+}, {
+  "id" : "LM20",
+  "name" : "阿",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "LM11",
+  "name" : "阿消",
+  "rarity" : "3",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "R001",
+  "name" : "阿米娅",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "R001",
+  "name" : "阿米娅(近卫)",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "LM04",
+  "name" : "陈",
+  "rarity" : "5",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "ST03",
+  "name" : "陨星",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "LT13",
+  "name" : "隐现",
+  "rarity" : "4",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "SI03",
+  "name" : "雪绒",
+  "rarity" : "4",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "LM16",
+  "name" : "雪雉",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "BS02",
+  "name" : "雷蛇",
+  "rarity" : "4",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "CB88",
+  "name" : "霍尔海雅",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "RS03",
+  "name" : "霜华",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "R123",
+  "name" : "霜叶",
+  "rarity" : "3",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "SS04",
+  "name" : "青枳",
+  "rarity" : "4",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "KZ07",
+  "name" : "鞭刃",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+}, {
+  "id" : "HK09",
+  "name" : "风丸",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "RV02",
+  "name" : "风笛",
+  "rarity" : "5",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "YD01",
+  "name" : "食铁兽",
+  "rarity" : "4",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "BS04",
+  "name" : "香草",
+  "rarity" : "2",
+  "profession" : "先锋",
+  "ico" : null
+}, {
+  "id" : "R145",
+  "name" : "鸿雪",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "MH02",
+  "name" : "麒麟X夜刀",
+  "rarity" : "5",
+  "profession" : "特种",
+  "ico" : null
+}, {
+  "id" : "RL06",
+  "name" : "麦哲伦",
+  "rarity" : "5",
+  "profession" : "辅助",
+  "ico" : null
+}, {
+  "id" : "SS02",
+  "name" : "黑",
+  "rarity" : "5",
+  "profession" : "狙击",
+  "ico" : null
+}, {
+  "id" : "A43",
+  "name" : "黑角",
+  "rarity" : "1",
+  "profession" : "重装",
+  "ico" : null
+}, {
+  "id" : "LN05",
+  "name" : "黑键",
+  "rarity" : "5",
+  "profession" : "术师",
+  "ico" : null
+}, {
+  "id" : "BV12",
+  "name" : "龙舌兰",
+  "rarity" : "4",
+  "profession" : "近卫",
+  "ico" : null
+} ]
