@@ -22,10 +22,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.demo.entity.Capable;
-import com.example.demo.mapper.CapableMapper;
-import com.example.demo.service.CapableServiceInter;
 
 import lombok.Data;
 
@@ -41,7 +38,7 @@ import lombok.Data;
 @Service
 @Lazy
 @Data
-public class CapableServiceImpl extends ServiceImpl<CapableMapper, Capable> implements CapableServiceInter {
+public class CapableServiceImpl {
 
     private Map<Capable, Integer> pool5 = new HashMap<Capable, Integer>();
     private Map<Capable, Integer> pool4 = new HashMap<Capable, Integer>();
@@ -52,8 +49,6 @@ public class CapableServiceImpl extends ServiceImpl<CapableMapper, Capable> impl
     private List<Capable> list;
     /* 抽卡计数 需要重数据源获取 */
     private Integer count = 0;
-
-    private final CapableMapper capableMapper;
 
     @Value("${pool.np5}")
     private String np5;
@@ -69,9 +64,8 @@ public class CapableServiceImpl extends ServiceImpl<CapableMapper, Capable> impl
     Map<Capable, Integer> p2 = new HashMap<>();
     Map<Map<Capable, Integer>, Integer> pools = new HashMap<>();
 
-    public CapableServiceImpl(CapableMapper capableMapper, List<Capable> generatedInitLocation) {
-        this.list = generatedInitLocation != null ? generatedInitLocation : capableMapper.selectList(null);
-        this.capableMapper = capableMapper;
+    public CapableServiceImpl(List<Capable> generatedInitLocation) {
+        this.list = generatedInitLocation;
 
         list.forEach(item -> {
             switch (item.getRarity()) {
@@ -107,6 +101,7 @@ public class CapableServiceImpl extends ServiceImpl<CapableMapper, Capable> impl
             pools.put(p2, 400);
         };
     }
+
     /*
      * 基于2023年8月30日 特选干员定向
      * 每50抽提升2%

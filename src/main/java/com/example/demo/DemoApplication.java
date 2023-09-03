@@ -1,7 +1,7 @@
 /*
  * @Author: nightmare-mio wanglongwei2009@qq.com
  * @Date: 2023-08-26 20:36:07
- * @LastEditTime: 2023-09-01 17:55:02
+ * @LastEditTime: 2023-09-03 18:39:20
  * @Description: 
  */
 /*
@@ -12,27 +12,15 @@
  */
 package com.example.demo;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import com.example.demo.entity.Capable;
 import com.example.demo.service.impl.CapableServiceImpl;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 
-@SpringBootApplication
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 @EnableWebMvc
 public class DemoApplication {
 

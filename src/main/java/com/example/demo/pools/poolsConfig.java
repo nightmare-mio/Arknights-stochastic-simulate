@@ -18,7 +18,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Configuration
-@Profile("dev")
+@Profile("location")
 public class poolsConfig {
 
     @Bean

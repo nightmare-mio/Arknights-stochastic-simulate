@@ -59,7 +59,7 @@ public class CapableController {
     public List<Capable> ce(
             @NotNull @Positive(message = "大于0") @Max(value = 10, message = "小于10") @PathVariable Integer times) {
         List<Capable> result = new LinkedList<>();
-        while (times-- >= 0) {
+        while (times-- > 0) {
             Capable capable = standardService.getCapable();
             result.add(capable);
         }
@@ -73,7 +73,7 @@ public class CapableController {
     public List<Capable> cw(
             @NotNull @Positive(message = "大于0") @Max(value = 10, message = "小于10") @PathVariable Integer times) {
         List<Capable> result = new LinkedList<>();
-        while (times-- >= 0) {
+        while (times-- > 0) {
             Capable capable = service.upPool();
             result.add(capable);
         }
@@ -91,7 +91,7 @@ public class CapableController {
         pool.put(service.getPool4(), 300);
         pool.put(service.getPool0123(), 685);
         List<Capable> result = new LinkedList<>();
-        while (times-- >= 0) {
+        while (times-- > 0) {
             Capable capable = service.getCapable(pool);
             result.add(capable);
         }
