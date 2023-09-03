@@ -1,3 +1,9 @@
+/*
+ * @Author: nightmare-mio wanglongwei2009@qq.com
+ * @Date: 2023-09-03 18:53:52
+ * @LastEditTime: 2023-09-03 18:56:28
+ * @Description: 
+ */
 package com.example.demo.pools;
 
 import java.io.BufferedReader;
@@ -18,7 +24,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Configuration
-@Profile("dev")
+@Profile("location")
 public class poolsConfig {
 
     @Bean
