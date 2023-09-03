@@ -3,4 +3,4 @@ spring:
     active:
       - dev
       - location
-      # - pre
+      # - preview
