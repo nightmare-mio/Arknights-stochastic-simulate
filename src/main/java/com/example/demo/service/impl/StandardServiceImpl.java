@@ -1,7 +1,7 @@
 /*
  * @Author: nightmare-mio wanglongwei2009@qq.com
  * @Date: 2023-09-02 14:48:23
- * @LastEditTime: 2023-09-03 15:24:16
+ * @LastEditTime: 2023-09-03 16:29:28
  * @Description: 
  */
 package com.example.demo.service.impl;
@@ -12,6 +12,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Service;
 
@@ -38,25 +39,20 @@ public class StandardServiceImpl {
 
     public StandardServiceImpl(MyConfig myConfig) {
         this.standard = myConfig.getStandard();
-        List<String> s1 = Arrays.asList(standard.get(0).replaceAll("\\s+", " ").split("\\|"));
-        List<String> s3 = Arrays.asList(standard.get(1).replaceAll("\\s+", " ").split("\\|"));
-        List<String> s2 = Arrays.asList(standard.get(2).replaceAll("\\s+", " ").split("\\|"));
-        List<String> s4 = Arrays.asList(standard.get(3).replaceAll("\\s+", " ").split("\\|"));
-        List<String> s5 = Arrays.asList(standard.get(4).replaceAll("\\s+", " ").split("\\|"));
-        List<String> s6 = Arrays.asList(standard.get(5).replaceAll("\\s+", " ").split("\\|"));
-
-        pools.put(u5 = initUp5(), 0.01F);
-        pools.put(u4 = initUp4(), 0.04F);
-        pools.put(p5 = initpool5(), 0.01F);
-        pools.put(p4 = initpool4(), 0.04F);
+        pools.put(p5 = initpool5(), 0.02F);
+        pools.put(p4 = initpool4(), 0.08F);
+        addUP(p5, 0);
+        addUP(p4, 1);
         pools.put(p3 = initpool3(), 0.5F);
         pools.put(p2 = initpool2(), 0.4F);
+        standardPoolBuild.build().createPool(p5,
+                new HashSet<>(Arrays.asList(standard.get(0).replaceAll("\\s+", " ").split("\\|"))))
+                .withUp(p5, new HashSet<>(Arrays.asList(standard.get(0).replaceAll("\\s+", " ").split("\\|"))));
     }
 
     public Capable getCapable() {
         if (count >= 50) {
-            pools.put(u5, pools.get(u5) + 0.01F);
-            pools.put(p5, pools.get(p5) + 0.01F);
+            pools.put(p5, pools.get(p5) + 0.02F);
             Float maxValue = 0F;
             Map<Capable, Integer> maxKey = null;
             for (Map.Entry<Map<Capable, Integer>, Float> e : pools.entrySet()) {
@@ -81,12 +77,9 @@ public class StandardServiceImpl {
         return capable;
     }
 
-    private Map<Capable, Integer> initUp5() {
-        return PoolUtils.createPool(new HashSet<>(Arrays.asList(standard.get(0).replaceAll("\\s+", " ").split("\\|"))));
-    }
-
-    private Map<Capable, Integer> initUp4() {
-        return PoolUtils.createPool(new HashSet<>(Arrays.asList(standard.get(1).replaceAll("\\s+", " ").split("\\|"))));
+    private Map<Capable, Integer> addUP(Map<Capable, Integer> pool, Integer index) {
+        return PoolUtils.addPool(pool,
+                new HashSet<>(Arrays.asList(standard.get(index).replaceAll("\\s+", " ").split("\\|"))));
     }
 
     private Map<Capable, Integer> initpool5() {

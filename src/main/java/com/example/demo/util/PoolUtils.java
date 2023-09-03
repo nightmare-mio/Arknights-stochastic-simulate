@@ -1,7 +1,7 @@
 /*
  * @Author: nightmare-mio wanglongwei2009@qq.com
  * @Date: 2023-09-02 23:49:49
- * @LastEditTime: 2023-09-03 15:12:15
+ * @LastEditTime: 2023-09-03 15:53:28
  * @Description: 
  */
 package com.example.demo.util;
@@ -29,6 +29,18 @@ public class PoolUtils {
     }
 
     /*
+     * 添加up干员
+     * 
+     */
+    public static Map<Capable, Integer> addPool(Map<Capable, Integer> pool, Set<String> names) {
+        int up = pool.size() - names.size();
+        pool.putAll(list.stream()
+                .filter(it -> names.contains(it.getName()))
+                .collect(Collectors.toConcurrentMap(Function.identity(), value -> up / names.size())));
+        return pool;
+    }
+
+    /*
      * 创建池子
      * 
      */
@@ -45,7 +57,7 @@ public class PoolUtils {
         return getRandomValueM(pools);
     }
 
-    /* 
+    /*
      * 抽卡 百分比概率
      */
     public static Capable getCapablePercentage(Map<Map<Capable, Integer>, Float> pools) {
