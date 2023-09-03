@@ -45,9 +45,6 @@ public class StandardServiceImpl {
         addUP(p4, 1);
         pools.put(p3 = initpool3(), 0.5F);
         pools.put(p2 = initpool2(), 0.4F);
-        standardPoolBuild.build().createPool(p5,
-                new HashSet<>(Arrays.asList(standard.get(0).replaceAll("\\s+", " ").split("\\|"))))
-                .withUp(p5, new HashSet<>(Arrays.asList(standard.get(0).replaceAll("\\s+", " ").split("\\|"))));
     }
 
     public Capable getCapable() {
