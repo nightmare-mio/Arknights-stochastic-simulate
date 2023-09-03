@@ -1,7 +1,7 @@
 /*
  * @Author: nightmare-mio wanglongwei2009@qq.com
  * @Date: 2023-08-26 21:24:32
- * @LastEditTime: 2023-08-31 00:13:57
+ * @LastEditTime: 2023-09-03 15:07:04
  * @Description: 
  */
 package com.example.demo.controller;
@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.Capable;
 import com.example.demo.service.impl.CapableServiceImpl;
+import com.example.demo.service.impl.StandardServiceImpl;
 
 import lombok.AllArgsConstructor;
 
@@ -43,6 +44,7 @@ import lombok.AllArgsConstructor;
 public class CapableController {
 
     private final CapableServiceImpl service;
+    private final StandardServiceImpl standardService;
 
     @Bean
     public ApplicationRunner executeOnStartup() {
@@ -50,8 +52,21 @@ public class CapableController {
         };
     }
 
+    /*
+     * 标准寻访定向-2% 6星 8% 5星 50% 4星 40% 3星
+     */
+    @RequestMapping(path = "/ce/{times}", method = RequestMethod.GET)
+    public List<Capable> ce(
+            @NotNull @Positive(message = "大于0") @Max(value = 10, message = "小于10") @PathVariable Integer times) {
+        List<Capable> result = new LinkedList<>();
+        while (times-- >= 0) {
+            Capable capable = standardService.getCapable();
+            result.add(capable);
+        }
+        return result;
+    }
 
-    /* 
+    /*
      * 特选干员定向-2% 6星 8% 5星 50% 4星 40% 3星
      */
     @RequestMapping(path = "/cw/{times}", method = RequestMethod.GET)
@@ -65,10 +80,7 @@ public class CapableController {
         return result;
     }
 
-
-
-
-    /* 
+    /*
      * 全干员-1.5% 6星 30% 5星 68.5% 剩余
      */
     @RequestMapping(path = "/cq/{times}", method = RequestMethod.GET)
