@@ -1,7 +1,7 @@
 /*
  * @Author: nightmare-mio wanglongwei2009@qq.com
  * @Date: 2023-08-26 21:24:32
- * @LastEditTime: 2023-09-03 15:07:04
+ * @LastEditTime: 2023-09-03 18:33:24
  * @Description: 
  */
 package com.example.demo.controller;
@@ -59,7 +59,7 @@ public class CapableController {
     public List<Capable> ce(
             @NotNull @Positive(message = "大于0") @Max(value = 10, message = "小于10") @PathVariable Integer times) {
         List<Capable> result = new LinkedList<>();
-        while (times-- >= 0) {
+        while (times-- > 0) {
             Capable capable = standardService.getCapable();
             result.add(capable);
         }
